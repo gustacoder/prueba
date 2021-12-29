@@ -47,3 +47,17 @@ main{
     transform:translate(5px , 5px);
     height: 250px;
 }
+.cuatro{
+    background-color: darkmagenta;
+    transition: all 2s ease;
+}
+.cuatro:hover{
+    background-color: gold;
+    transform: scale(1.1,1.1);
+}
+.cinco{
+    background: linear-gradient(grey , violet)
+}
+.cinco:hover{
+    background: linear-gradient(blue , white)
+}
